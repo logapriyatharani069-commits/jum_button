@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jump Button</title>
+
+<style>
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+
+  .section {
+    height: 100vh;
+    padding: 40px;
+  }
+
+  .top {
+    background: #3498db;
+    color: white;
+    text-align: center;
+  }
+
+  .bottom {
+    background: #2ecc71;
+    color: white;
+    text-align: center;
+  }
+
+  .btn {
+    padding: 12px 25px;
+    background: white;
+    color: #333;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .btn:hover {
+    background: #ddd;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="section top" id="top">
+  <h1>Top Section</h1>
+  <a href="#bottom">
+    <button class="btn">Go Down ↓</button>
+  </a>
+</div>
+
+<div class="section bottom" id="bottom">
+  <h1>Bottom Section</h1>
+  <a href="#top">
+    <button class="btn">Go Up ↑</button>
+  </a>
+</div>
+
+</body>
+</html>
